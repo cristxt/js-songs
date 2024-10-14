@@ -1,6 +1,7 @@
 //Exercise 1: Get the array of all Artists.
 function getAllArtists(array){
-    let result = '???';
+    let result = array.map(artist=>artist.artist);
+    return result
     //console.log("Exercise 1 ->", result);
     return result;
 };
